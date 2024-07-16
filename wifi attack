@@ -1,2 +1,2 @@
-aicrack-ng
-wifite
+aicrack-ng        : cmd
+wifite            : gui
