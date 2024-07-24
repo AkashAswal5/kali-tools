@@ -24,3 +24,11 @@ two online services:
 •	DNSDumpster
 •	Shodan.io
 
+
+                Active reconnaissance
+Active reconnaissance, on the other hand, cannot be achieved so discreetly. It requires direct engagement with the target. 
+
+Examples of active reconnaissance activities include:
+•	Connecting to one of the company servers such as HTTP, FTP, and SMTP.
+•	Calling the company in an attempt to get information (social engineering).
+•	Entering company premises pretending to be a repairman.
