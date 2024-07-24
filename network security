@@ -13,3 +13,7 @@ Passive reconnaissance activities include many activities, for instance:
 •	Checking job ads related to the target website.
 •	Reading news articles about the target company.
 
+tools related to passive reconnaissance. We will learn three command-line tools:
+•	whois to query WHOIS servers
+•	nslookup to query DNS servers
+•	dig to query DNS servers
