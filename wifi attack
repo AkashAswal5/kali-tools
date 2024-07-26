@@ -54,38 +54,3 @@ ls
 
 
 sudo aircrack-ng -b 1:b2:C3:d4:E5:f6 output.cap -w /usr/share/wordlists/rockyou.txt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
-                                     
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
